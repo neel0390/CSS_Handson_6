@@ -1,0 +1,708 @@
+body {
+  background-image: url("sahara.png");
+}
+.container {
+  width: 80%;
+  height: auto;
+  color: #fff;
+  margin: 30px auto;
+  padding: auto;
+}
+.logo {
+  float: left;
+}
+.nav {
+  text-align: right;
+}
+.nav a {
+  text-decoration: none;
+  padding: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+.left {
+  width: 50%;
+  margin-top: 200px;
+
+  float: left;
+}
+.capital {
+  font-size: 100px;
+  font-weight: bold;
+}
+button {
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+.box1:hover {
+  transform: translateY(-10px);
+}
+.box2:hover {
+  transform: translateY(-10px);
+}
+.box3:hover {
+  transform: translateY(-10px);
+}
+.box4:hover {
+  transform: translateY(-10px);
+}
+.box {
+  width: 50%;
+  height: auto;
+  /* background-color: #fff; */
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box1 {
+  position: relative;
+}
+.box1 img {
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.box1 h3 {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  font-size: 15px;
+}
+#para1 {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  font-size: 15px;
+}
+#para2 {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  font-size: 15px;
+}
+.box2 {
+  position: relative;
+}
+.box2 img {
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.box2 h3 {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  font-size: 15px;
+}
+.box3 {
+  position: relative;
+}
+.box3 img {
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.box3 h3 {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  font-size: 15px;
+}
+.box4 {
+  position: relative;
+}
+.box4 img {
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.box4 h3 {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  font-size: 15px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-image: url(sahara.png");
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo {
+    float: left;
+    /* display: none; */
+  }
+  .nav {
+    text-align: right;
+  }
+  .nav a {
+    text-decoration: none;
+    padding: 2px 0px;
+    margin-right: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-size: 10px;
+  }
+  #bars {
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    clear: both;
+    /* margin: -300px 0px; */
+  }
+  .left {
+    width: 100%;
+    margin-top: 10px;
+
+    /* float: left; */
+  }
+  .capital {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .para {
+    width: 100%;
+    font-size: 10px;
+  }
+  button {
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box1 {
+    position: relative;
+  }
+  .box1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px auto;
+  }
+  .box1 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1 {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    font-size: 15px;
+  }
+  #para2 {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-size: 15px;
+  }
+  .box2 {
+    position: relative;
+  }
+  .box2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box2 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3 {
+    position: relative;
+  }
+  .box3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box3 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4 {
+    position: relative;
+  }
+  .box4 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+    width: 200px;
+    height: 200px;
+  }
+  .box4 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box1:hover {
+    transform: translateY(-10px);
+  }
+  .box2:hover {
+    transform: translateY(-10px);
+  }
+  .box3:hover {
+    transform: translateY(-10px);
+  }
+  .box4:hover {
+    transform: translateY(-10px);
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  body {
+    background-image: url("sahara.png");
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo {
+    float: left;
+    margin-left: 25px;
+  }
+  .logo img {
+    width: 25px;
+    height: 25px;
+  }
+  .nav {
+    text-align: right;
+  }
+  .nav a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    /* margin-right: 10px; */
+  }
+  #bars {
+    margin-right: 25px;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+
+    margin-top: -200px 0px;
+  }
+  .left {
+    width: 100%;
+    margin-top: 20px;
+
+    /* float: left; */
+  }
+  .capital {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .para {
+    width: 100%;
+    font-size: 10px;
+  }
+  button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+  }
+  .box1:hover {
+    transform: translateY(-10px);
+  }
+  .box2:hover {
+    transform: translateY(-10px);
+  }
+  .box3:hover {
+    transform: translateY(-10px);
+  }
+  .box4:hover {
+    transform: translateY(-10px);
+  }
+  .box {
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box1 {
+    position: relative;
+  }
+  .box1 img {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box1 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1 {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    font-size: 15px;
+  }
+  #para2 {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 15px;
+  }
+  .box2 {
+    position: relative;
+  }
+  .box2 img {
+    width: 450px;
+    height: 250px;
+
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box2 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3 {
+    position: relative;
+  }
+  .box3 img {
+    width: 450px;
+    height: 250px;
+
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box3 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4 {
+    position: relative;
+  }
+  .box4 img {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box4 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1225px) {
+  body {
+    background-image: url("sahara.png");
+  }
+  .container {
+    width: 90%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo {
+    float: left;
+  }
+  .nav {
+    text-align: right;
+  }
+  .nav a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    clear: both;
+  }
+  .left {
+    width: 50%;
+    margin-top: 200px;
+
+    float: left;
+  }
+  .capital {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  button {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+  }
+  .box1:hover {
+    transform: translateY(-10px);
+  }
+  .box2:hover {
+    transform: translateY(-10px);
+  }
+  .box3:hover {
+    transform: translateY(-10px);
+  }
+  .box4:hover {
+    transform: translateY(-10px);
+  }
+  .box {
+    width: 50%;
+    height: auto;
+    /* background-color: #fff; */
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .box1 {
+    position: relative;
+  }
+  .box1 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box1 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1 {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    font-size: 15px;
+  }
+  #para2 {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-size: 15px;
+  }
+  .box2 {
+    position: relative;
+  }
+  .box2 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box2 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3 {
+    position: relative;
+  }
+  .box3 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box3 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4 {
+    position: relative;
+  }
+  .box4 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box4 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url("sahara.png");
+  }
+  .container {
+    width: 85%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo {
+    float: left;
+  }
+  .nav {
+    text-align: right;
+  }
+  .nav a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    clear: both;
+  }
+  .left {
+    width: 50%;
+    margin-top: 200px;
+
+    float: left;
+  }
+  .capital {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  button {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+  }
+  .box1:hover {
+    transform: translateY(-10px);
+  }
+  .box2:hover {
+    transform: translateY(-10px);
+  }
+  .box3:hover {
+    transform: translateY(-10px);
+  }
+  .box4:hover {
+    transform: translateY(-10px);
+  }
+  .box {
+    width: 50%;
+    height: auto;
+    /* background-color: #fff; */
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box1 {
+    position: relative;
+  }
+  .box1 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box1 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1 {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    font-size: 15px;
+  }
+  #para2 {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-size: 15px;
+  }
+  .box2 {
+    position: relative;
+  }
+  .box2 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box2 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3 {
+    position: relative;
+  }
+  .box3 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box3 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4 {
+    position: relative;
+  }
+  .box4 img {
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+  .box4 h3 {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    display: none;
+  }
+}
